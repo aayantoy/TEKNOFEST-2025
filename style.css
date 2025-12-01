@@ -57,6 +57,7 @@ body {
 .tomboldaftar1 {
     display: inline-block;
     padding: 10px 20px;
+    margin-bottom: 30px;
     background-color: #e71010b9;
     color: #ffffff;
     text-decoration: none;
@@ -215,4 +216,37 @@ footer {
     color: #000000;
 }
 
+@media only screen and (max-width: 768px) {
+    
+    .embungkusnavigasi {
+        width: 90%;
+    }
 
+    .pembungkusnavigasi {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .pembunglus-hero a {
+        font-size: 14px;
+        padding: 30px 15px;
+        margin-bottom: 30px;
+    }
+
+    .fotoacara {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .pembicara h2 {
+        font-size: 24px;
+        padding: 20px;
+    }
+
+    .pembungkuspembicara {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
