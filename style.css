@@ -1,0 +1,218 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+body {
+    background-color: #4193ff;
+    font-family: Arial, sans-serif;
+}
+
+.navigasi {
+    background-color: #feffffab;
+    padding: 20px;
+    color: aliceblue;
+}
+
+.navigasi a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.pembungkusnavigasi {
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pembungkusnavigasi ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #8400ff;
+}
+
+.hero {
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), #4193ff), 
+        url('../assets/img/acara.jpg'); 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 60px 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.tomboldaftar1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e71010b9;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.tomboldaftar1:hover {
+    scale: 1.05;
+    background-color: #3700b3;
+
+}
+
+.fotoacara {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px;
+}
+
+.fotonya {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.fotonya:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.pembungkusjadwal {
+    width: 95%;
+    max-width: 1200px;
+    margin: 40px auto;
+    background-color: #ffffff38;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.daftarjadwal {
+    list-style: none;
+    padding: 0;
+}
+
+.jadwal {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffffb3;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.jadwal h2{
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.jadwal:hover {
+    scale: 1.02;
+    background-color: #e0e0e0;
+    transition: background-color 0.3s ease;
+}
+
+.pembicara {
+    background-color: #ffffff38;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.pembungkuspembicara {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.kartu {
+    background-color: #ffffff3b;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 350px;
+    transition: transform 0.3s ease;
+}
+
+.kartu:hover {
+    transform: scale(1.05);
+    background-color: #e0e0e0;
+}
+
+.foto {
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.isikartu {
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.daftar {
+    background-color: #ffffff7a;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.form-daftar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+    width: 300px;
+}
+
+.form-daftar input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.tomboldaftar2 {
+    padding: 10px 20px;
+    background-color: #e71010b9;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.tomboldaftar2:hover {
+    scale: 1.05;
+    background-color: #3700b3;
+}
+
+footer {
+    background-color: #feffffab;
+    padding: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+
