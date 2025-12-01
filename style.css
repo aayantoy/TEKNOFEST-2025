@@ -6,7 +6,7 @@
 
 body {
     background-color: #4193ff;
-    font-family: Arial, sans-serif;
+    font-family: Poppins, Roboto;
 }
 
 .navigasi {
@@ -45,7 +45,7 @@ body {
 .hero {
     background: 
         linear-gradient(rgba(0, 0, 0, 0.5), #4193ff), 
-        url('../assets/img/acara.jpg'); 
+        url('assets/img/acara.jpg'); 
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
