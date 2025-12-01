@@ -232,6 +232,12 @@ footer {
         padding: 30px 15px;
         margin-bottom: 30px;
     }
+    
+    .tomboldaftar1 {
+        padding: 8px 16px;
+        margin-bottom: 30px;
+        font-size: 14px;
+    }
 
     .fotoacara {
         flex-direction: column;
