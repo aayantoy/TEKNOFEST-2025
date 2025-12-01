@@ -21,6 +21,14 @@ body {
     font-weight: bold;
 }
 
+.menu-navigasi li:hover {
+    scale: 1.25;
+    background-color: #3600b321;
+    border-radius: 9px;
+    transition: 0.5s;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
 .pembungkusnavigasi {
     width: 95%;
     max-width: 1200px;
@@ -40,6 +48,13 @@ body {
     font-size: 24px;
     font-weight: bold;
     color: #8400ff;
+    transition: 0.3s;
+}
+
+.logo:hover {
+    scale: 1.2;
+    transition: 1s;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
 .hero {
@@ -63,13 +78,14 @@ body {
     text-decoration: none;
     border-radius: 5px;
     margin-top: 20px;
-    transition: background-color 0.3s ease;
+    transition: 0.3s;
 }
 
 .tomboldaftar1:hover {
     scale: 1.05;
+    transition: 0.4s;
     background-color: #3700b3;
-
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
 .fotoacara {
